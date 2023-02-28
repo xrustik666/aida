@@ -37,9 +37,12 @@ public class GraphicInterface {
         // взаимоисключающая галочка, т. н. радиокнопка
         JRadioButton radiobutton1 = new JRadioButton("Радиокнопка1");
         JRadioButton radiobutton2 = new JRadioButton("Радиокнопка2");
-        ButtonGroup bg = new ButtonGroup(); // необходимо добавить обе кнопки в группу, чтобы кнопки были взаимоисключающими
+        // создаем группу для радиокнопок
+        ButtonGroup bg = new ButtonGroup();
+        // необходимо добавить обе кнопки в группу, чтобы кнопки были взаимоисключающими
         bg.add(radiobutton1);
         bg.add(radiobutton2);
+        // добавляем радиокнопки на панель
         panel.add(radiobutton1);
         panel.add(radiobutton2);
 
