@@ -14,7 +14,7 @@ public class GraphicInterface {
         // завершать выполнение программы, когда закрываем ее
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        // создаем панель, в которой будем размещать элементы
+        // создаем панель, внутри которой будем размещать элементы
         JPanel panel = new JPanel();
         frame.add(panel);
 
