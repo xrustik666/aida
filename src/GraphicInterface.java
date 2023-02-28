@@ -55,6 +55,7 @@ public class GraphicInterface {
         JScrollPane scroll = new JScrollPane(table);
         panel.add(scroll);
 
-        frame.setVisible(true); // видно окошко или нет. Нам нужно чтоб было видно уж. Рекомендуется выводить этот метод последним
+        // видно окошко или нет. Нам нужно чтоб было видно уж. Рекомендуется выводить этот метод последним
+        frame.setVisible(true);
     }
 }
