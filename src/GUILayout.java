@@ -48,8 +48,8 @@ public class GUILayout {
 
         // добавляем основную панель и вешаем на нее все, что насоздавали
         frame.add(mainPanel, BorderLayout.CENTER);
-        // для привязки объектов по координатам используем GridBagConstraints
         mainPanel.setLayout(new GridBagLayout()); // без этого лэйаута невозможно задавать координаты элементам
+        // для привязки объектов по координатам используем GridBagConstraints. Это пипец какой-то
         GridBagConstraints c = new GridBagConstraints();
         c.gridx = 0;
         c.gridy = 0;
